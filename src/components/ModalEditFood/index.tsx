@@ -6,7 +6,7 @@ import { IModalProps } from '../ModalAddFood';
 import { Form } from './styles';
 import { Modal } from '../Modal';
 import { Input } from '../Input';
-import { FoodType } from '../../Foodtype';
+import { FoodType } from '../../types';
 
 interface IModalEditProps extends IModalProps {
   handleUpdateFood: (food: FoodType) => void;
