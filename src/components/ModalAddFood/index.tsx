@@ -17,7 +17,7 @@ interface FormData {
   price: number;
   description: string;
 }
-export function ModalAddFoods({
+export function ModalAddFood({
   isOpen,
   setIsOpen,
   handleAddFood,
